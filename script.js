@@ -47,7 +47,7 @@ function addTodo(title, completed) {
     doneBtn.style.display = "";
     deleteBtn.style.display = "";
   };
-  div.onmouseleave = () => {
+  div.onmouseout = () => {
     doneBtn.style.display = "none";
     deleteBtn.style.display = "none";
   };
