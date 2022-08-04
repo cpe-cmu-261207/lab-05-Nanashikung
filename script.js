@@ -74,7 +74,6 @@ function saveTodo() {
     data.unshift(todoObj);
   }
   //your code here
-  console.log(data);
   const dataStr = JSON.stringify(data);
   localStorage.setItem("todoListData", dataStr);
 }
